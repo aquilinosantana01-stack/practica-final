@@ -1,0 +1,27 @@
+name: Validar proyecto
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  compilar-y-probar:
+    runs-on: windows-latest
+
+    steps:
+      - name: Descargar código
+        uses: actions/checkout@v4
+
+      - name: Instalar .NET 8
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 8.0.x
+
+      - name: Restaurar dependencias
+        run: dotnet restore SistemaGestionPacientes.sln
+
+      - name: Compilar solución
+        run: dotnet build SistemaGestionPacientes.sln --configuration Release --no-restore
+
+      - name: Probar lógica CRUD
+        run: dotnet run --project tests/SistemaGestionPacientes.Pruebas --configuration Release --no-build
