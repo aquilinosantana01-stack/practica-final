@@ -1,13 +1,19 @@
 # Capturas de pantalla
 
-Ejecute el proyecto en Windows desde Visual Studio 2022 y agregue en esta carpeta las capturas solicitadas por el profesor:
+Evidencias visuales incluidas en el README principal:
 
-1. Menú principal.
-2. Registro exitoso de un paciente.
-3. Validación de campos vacíos, edad inválida e ID duplicado.
-4. Listado completo en el `DataGridView`.
-5. Búsqueda por ID y por nombre.
-6. Actualización de un paciente.
-7. Confirmación y resultado de eliminación.
-
-Nombre sugerido para los archivos: `01-menu.png`, `02-registro.png`, etc.
+1. `01-menu-principal.png`
+2. `02-formulario-registro.png`
+3. `03-validacion-campos-obligatorios.png`
+4. `04-validacion-edad.png`
+5. `05-registro-exitoso.png`
+6. `06-validacion-id-duplicado.png`
+7. `07-listado-pacientes.png`
+8. `08-busqueda-por-id.png`
+9. `09-busqueda-por-nombre.png`
+10. `10-busqueda-sin-resultados.png`
+11. `11-formulario-actualizacion.png`
+12. `12-actualizacion-exitosa.png`
+13. `13-formulario-eliminacion.png`
+14. `14-confirmacion-eliminacion.png`
+15. `15-confirmacion-salida.png`
