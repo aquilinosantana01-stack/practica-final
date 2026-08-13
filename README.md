@@ -4,10 +4,8 @@ Aplicación de escritorio desarrollada en C# y Windows Forms para la práctica f
 
 ## Integrantes
 
-- Aquilino Santana - matrícula pendiente de completar.
-- Segundo integrante - nombre y matrícula pendientes de completar.
-
-> Antes de entregar, reemplace los datos pendientes con los nombres completos y las matrículas de ambos integrantes.
+- Aquilino Santana - matrícula 2024-2110.
+- Franklelin López - matrícula 2024-3923.
 
 ## Descripción breve
 
